@@ -219,10 +219,10 @@ size_t selectableText_promptUser(SelectableText* txt) {
         // handle input
         if (c == KEY_UP || c == KEY_LEFT) {
             if (action_index > 0) action_index--;
-            else action_index = txt->actions.count - 1;
+            else action_index = txt->actions.count - 1; // wrap around
         } else if (c == KEY_DOWN || c == KEY_RIGHT) {
             if (action_index < txt->actions.count - 1) action_index++;
-            else action_index = 0;
+            else action_index = 0; // wrap around
         }
     } while (c != KEY_ENTER);
 
