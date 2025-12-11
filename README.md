@@ -1,5 +1,5 @@
 # Selectable Text for C
-A small single-header C library for UNIX operating systems to make simple and easy CLI interfaces.
+A small and easy-to-use single-header C library for UNIX operating systems to make simple CLI interfaces.
 
 # Usage
 Download the header file and include it. Below is a usage example.
