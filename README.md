@@ -5,7 +5,7 @@ A small and easy-to-use single-header C library for UNIX operating systems to ma
 Download the header file and include it. Below is a usage example.
 ```
 #include <stdio.h>
-#include "selectabletext.h"
+#include "selectableText.h"
 
 void action_a() { puts("Selected action one."); }
 void action_b() { puts("Selected action two."); } 
