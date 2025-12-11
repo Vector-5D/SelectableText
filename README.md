@@ -26,8 +26,6 @@ int main() {
 
     // returns the index of the selected action
     size_t result = selectableText_promptUser(&stext);
-    
-    selectableText_free(&stext);
 
     switch (result) {
         case 0:
