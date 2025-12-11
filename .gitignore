@@ -1,0 +1,5 @@
+compile_commands.json
+src/
+bin/
+build/
+.cache/
