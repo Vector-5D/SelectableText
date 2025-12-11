@@ -1,7 +1,7 @@
 # Selectable Text for C
 A small and easy-to-use single-header C library for UNIX operating systems to make simple CLI interfaces.
 
-# Usage
+## Usage
 Download the header file and include it. Below is a usage example.
 ```
 #include <stdio.h>
@@ -52,5 +52,5 @@ int main() {
 }
 ```
 
-# License
+## License
 This library is provided as is. The author(s) take no responsibility for any possible damages caused by this library.
