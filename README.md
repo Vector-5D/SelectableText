@@ -1,4 +1,4 @@
-# Selectable Text for C
+# Selectable Text for C/C++
 A small and easy-to-use single-header C library for UNIX operating systems to make simple CLI interfaces.
 
 ## Usage
